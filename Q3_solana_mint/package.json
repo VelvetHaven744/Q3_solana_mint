@@ -1,0 +1,16 @@
+{
+  "name": "q3_solana",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "spl_init": "ts-node spl_mint/solana-starter/ts/cluster1/spl_init.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
